@@ -60,5 +60,5 @@ function changeColor(array) {
 }
 
 function VerifyAgent(){
-if(isMobile) return document.querySelector('.box').style.width = '700px', document.querySelector('.box').style.heigth = '700px', console.log('mudado');
+if(isMobile) return document.querySelector('.box').style.width = '500px', document.querySelector('.box').style.heigth = '500px', console.log('mudado');
 }
