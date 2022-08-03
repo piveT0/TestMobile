@@ -6,7 +6,7 @@
 	 
 	By: https://github.com/Neguin0
 */
-//const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 let map = document.querySelectorAll('.block');
 map = [...map];
 
@@ -15,7 +15,7 @@ let player = "X";
 map.forEach((e) => e.onclick = () => clickBox(e));
 
 function clickBox(e) {
-	//if(isMobile) return console.log("Mobilekkj")
+	if(isMobile) return document.style.width = 700
 	if (e.innerText !== '') return;
 	
 	e.innerText = player;
